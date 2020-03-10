@@ -1,0 +1,182 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- bye
+- thank
+- daily_allowance
+- tours_travels_allowance
+- school_admission
+- guest_house_facilities
+- medical_reimbursement
+- policy_mobilephone
+- policy_relocation
+- policy_retirement
+- policy_travel_expenses
+- policy_international_travel
+- travel_claim_fares
+- eligibility_travel
+- policy_travel_insurance
+- international_travel_requirements
+- eligibility_hotel_booking
+responses:
+  utter_noworries:
+  - text: No worries!
+  utter_greet:
+  - text: Hi
+  utter_bye:
+  - text: Bye!
+  utter_daily_allowance:
+  - text: "The Daily Allowance entitlement per day (HQ/Ex-HQ/ night) per grade is\
+      \ as follows. \nTSI / STSI (INR)\t     ASE (INR)\t        Sr. ASE (INR) HQ Meals\t\
+      \                  275\t                325\t            Meals On Actuals\n\
+      \ Ex-HQ Meals\t                300\t                350\t            Meals on\
+      \ Actuals \nNight Stay (Hotel Stay)\t    1400      \t        1700\t        \
+      \  2500."
+  utter_tours_travels_allowance:
+  - text: "•        Employees are entitled to AC 3 Tier/Chair Car in trains or Luxury\
+      \ Bus. To the extent possible tickets should be purchased in advance.\n •  \
+      \      In case of any urgent travel required via flight, the approval of the\
+      \ Regional HR Director will be mandatory.\n •        All travel on official\
+      \ work requires prior approval of their respective function/department Head.\n\
+      \ •        The original ticket is to be provided while submitting expense claim\
+      \ statement for travel.\n •        Production of ticket can be waived if the\
+      \ employee travels by bus to a location where there is no train connectivity\
+      \ and the fare for one side of travel is less than INR 100/-. "
+  utter_school_admission:
+  - text: "One time Assistance for school admissions for children will be given to\
+      \ a maximum of INR  20,000/- child at the discretion of HRD for upto a maximum\
+      \ of two children. This amount will be subjected to Tax as per Indian taxation\
+      \ law.\n It will be paid on actuals and will exclude payments such as:\n * \
+      \  School UnifoNavomis (only if the transfer is at the start of session)\n *\
+      \   Tuition fee\n *   School supplies.\n *   Meals.\n *   Extracurricular activities\
+      \ e.g. music lessons,\n *   Sports clubs, etc.\n *   Boarding fees.\n *   Insurance.\n\
+      \ *   Bus fees\n *   Lap tops / computers\n *   Security Deposit\n The Manager\
+      \ will have to submit a proof of payments for the same.\n *   Conditions for\
+      \ availing schooling assistance are as follows:\n -   the child is accompanying\
+      \ the Transferee to the new location\n -   the child has not entered university\
+      \ level education, college or vocational training\n -   the child is older than\
+      \ 3 years of age\n"
+  utter_guest_house_facilities:
+  - text: "• The GH facility is available in Hyderabad. It is mandatory for Managers\
+      \ to stay in Guest Houses wherever such facilities are available. Managers should\
+      \ liaise with local offices to secure bookings at Guest Houses.\n • Managers\
+      \ staying at Guest Houses can claim food / reasonable expenses on actuals\n\
+      \ • Before checking out of the GH, the Manager must settle charges for all personal\
+      \ calls, laundry, meals, and other charges.\n • No personal entertainment /\
+      \ parties are allowed at the Guest House.\n "
+  utter_medical_reimbursement:
+  - text: "•    All Managers can claim expenses incurred for cost of lenses to correct\
+      \ vision, contact lenses and eyeglass frames up to a maximum of INR 7,000/-\
+      \ once in two years.\n •   Expenses on Sun glasses and cosmetic lenses / cosmetic\
+      \ contact lenses are not reimbursable.\n"
+  utter_policy_mobilephone:
+  - text: "*   Employees can buy the handset once in two years of their choice and\
+      \ claim reimbursement of upto INR 6,000, or the actual price, whichever is lower,\
+      \ once every 2 years, against production of bill.\n They will also be reimbursed\
+      \ with the charges for number transfer (INR 22) and address book transfer (INR\
+      \ 170).\n"
+  utter_policy_relocation:
+  - text: "*   The Transferee is eligible for a one-off Relocation Allowance. This\
+      \ is intended to cover items such as replacement of electrical appliances; curtains\
+      \ etc. and the transferee may use this allowance for any purpose he / she chooses.\n\
+      \ *   Managers on transfer will be paid Relocation Allowance upto a maximum\
+      \ of one month's basic salary subject to a minimum of INR 17,500 or a maximum\
+      \ of INR 1,00,000.\n *   Relocation allowance will be paid only in cases where\
+      \ there is a change in residence as a result of transfer from one location to\
+      \ another.\n *   Relocation Allowance will be paid through payroll, after deduction\
+      \ of applicable income tax.\n"
+  utter_policy_retirement:
+  - text: "On superannuation the company shall provide the following facilities to\
+      \ the employee:\n a) Movement of Personal effects from place of last service\
+      \ to the place of residence(in India) post retirement\n The maximum limit for\
+      \ packing of goods (besides car) will be subject to:\n -   Upto maximum of one\
+      \ 9 tonne truck for Bands D, C & B\n -   Upto maximum of one 16 Tonne truck\
+      \ for Band A\n b) The maximum limit for insurance of goods (besides car)\n -\
+      \   Upto maximum of INR 2,50,000 for Bands D\n -   Upto maximum of INR 5,00,000\
+      \ for Bands C & B\n -   Upto maximum of INR 7,50,000 for Bands A\n c) No break\
+      \ shipment would be allowed\n d) 2 nights stay in Guest House / Hotel in the\
+      \ last location of posting.\n"
+  utter_policy_travel_expenses:
+  - text: "Following items will not be reimbursed as part of Travel Expenses:\n\n\
+      •\tLaundry/dry cleaning costs (unless hotel does not have an iron & ironing\
+      \ board) where the business trip lasts longer than 5 days \n\n•\tMagazines/Newspapers\
+      \ (unless for professional purposes) \n\n•\tClothing \n\n•\tBusiness calls made\
+      \ from a home telephone (if submitted these should be supported by an itemized\
+      \ bill). \n\n•\tNon-cancelled, unused hotel bookings, flights or trains – unless\
+      \ missed due to transportation problems \n\n•\tMovies and other in-room entertainment\
+      \ in excess of a hotel television standard package \n\n•\tAdult entertainment\
+      \ \n\n•\tCar cleaning expenses \n\n•\tParking fines \n\n•\tTrain fines for inappropriate\
+      \ / missing tickets (unless not caused by the employee’s personal actions) \n\
+      \n•\tPersonal Travel insurance \n\n•\tPersonal Chauffeurs \n\n•\tPersonal gifts\
+      \ for family members \n\n•\tElectrical goods i.e. laptop/ I-phone/ I-pad accessories\
+      \ (these should be purchased through other business routes) an exception can\
+      \ be made for emergency items such as travel adaptors. \n\n•\tParking charges\
+      \ for employees when parking a car at their regular office address \n\n•\tToiletries\
+      \ and other personal expenses incurred not relating to the business travel \n"
+  utter_policy_international_travel:
+  - text: "•\tAll travel above 6 hours will be in Business Class. \n\n•\tFor all international\
+      \ travel it is absolutely mandatory to opt for the least cost airline and routing\
+      \ available. \nAny exception will require written pre- approval from the respective\
+      \ General Manager (and from the Regional SVP for the General Managers themselves).\n\
+      \ Such exceptions are not encouraged except in cases where there is a genuine\
+      \ conflict with official work schedules.\n"
+  utter_travel_claim_fares:
+  - text: "•\tMeetings involving travel should be organized in the location that minimizes\
+      \ no of people travel and overall travel cost for Navomi. \n\n•\tFlights less\
+      \ than 6 hrs must be booked 14 days in advance. Flights above 6 hrs should be\
+      \ booked 21 days in advance. \n\n•\tTravel required for meetings included in\
+      \ the annual meeting calendar is to be booked within 8 weeks of the publishing\
+      \ of the calendar or 4 weeks in advance of the meeting, whichever comes sooner.\
+      \ \n\n•\tThe lowest available fare for the day must be selected \n"
+  utter_eligibility_travel:
+  - text: "•\tSpouse/partner travel can only take place on invitation of the company;\
+      \ this could include approved home travel, relocation travel and/or company\
+      \ conferences.\n The company will pay for the tax as a result of the overall\
+      \ trip relating to the spouse travel.\n•\tAny spouse travel (other than provided\
+      \ for in the International Transfer Policy) will require prior written approval\
+      \ from the Regional SVP.\n"
+  utter_policy_travel_insurance:
+  - text: "•\tThe Company shall negotiate and agree with providers for travel insurance\
+      \ while on official duty. The company will not reimburse for personal items\
+      \ that are taken for the employee's own purposes rather than for business (e.g.\
+      \ camera, portable electronic items, jewellery) and for which she/he should\
+      \ have her/his own specific personal insurance cover in place.\n"
+  utter_international_travel_requirements:
+  - text: "•\tIt is the responsibility of the employee to ensure their passport is\
+      \ up to date and valid for travel.\n\n•\tA number of countries have Visa requirements\
+      \ which must be completed prior to departure and it is the responsibility of\
+      \ the employee to ensure that all documents have been issued in time and correctly\
+      \ when prompted by the TMC. Once Visa and new passports have been obtained,\
+      \ a scanned copy should be send to the TMC account manager.\n\n•\tVisa and passport\
+      \ expenses relating to business related travel are claimable via the Expense\
+      \ Claim For Navomi.\n"
+  utter_eligibility_hotel_booking:
+  - text: "•\tIt is the responsibility of the employee to ensure their passport is\
+      \ up to date and valid for travel.\n\n•\tA number of countries have Visa requirements\
+      \ which must be completed prior to departure and it is the responsibility of\
+      \ the employee to ensure that all documents have been issued in time and correctly\
+      \ when prompted by the TMC. Once Visa and new passports have been obtained,\
+      \ a scanned copy should be send to the TMC account manager.\n\n•\tVisa and passport\
+      \ expenses relating to business related travel are claimable via the Expense\
+      \ Claim For Navomi.\n"
+actions:
+- utter_noworries
+- utter_greet
+- utter_bye
+- utter_daily_allowance
+- utter_tours_travels_allowance
+- utter_school_admission
+- utter_guest_house_facilities
+- utter_medical_reimbursement
+- utter_policy_mobilephone
+- utter_policy_relocation
+- utter_policy_retirement
+- utter_policy_travel_expenses
+- utter_policy_international_travel
+- utter_travel_claim_fares
+- utter_eligibility_travel
+- utter_policy_travel_insurance
+- utter_international_travel_requirements
+- utter_eligibility_hotel_booking
